@@ -4,7 +4,7 @@ reg reset;
 reg [31:0] writedata, dataadr;
 reg memwrite;
 // instantiate device to be tested
-top dut(clk, reset, writedata, dataadr, memwrite);
+Top dut(clk, reset, writedata, dataadr, memwrite);
 // initialize test
 initial begin
   reset <= 1; #22;
