@@ -8,7 +8,7 @@ module shiftleft2 (
      assign out = {in[29:0], 2'b00};
 
 endmodule
-module shiftleft2_tb;
+/*module shiftleft2_tb;
 
     reg [31:0] in_shiftleft2;           // Input
     wire [31:0] out_shiftleft2;         // Output
@@ -38,4 +38,4 @@ module shiftleft2_tb;
         $finish; // End simulation
     end
 
-endmodule
+endmodule*/
